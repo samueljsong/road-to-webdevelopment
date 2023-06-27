@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className={classes.container}>
-      <Hero></Hero>
+      
     </div>
   )
 }

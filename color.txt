@@ -1,0 +1,4 @@
+text                #ccd6f6
+sub text            #8892b0
+purple              #682ae9
+background          #111111
