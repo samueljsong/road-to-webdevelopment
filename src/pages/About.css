@@ -1,0 +1,53 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  margin-top: 20%;
+  width: 60rem;
+}
+
+.about-textsection {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.about-line {
+  width: 20rem;
+  height: 1px;
+  background-color: #682ae9;
+  margin-left: 10px;
+}
+
+.about-textwrap {
+  text-wrap: balance;
+}
+
+.about-context {
+  margin-top: 1rem;
+}
+
+.about-profilesection {
+  display: grid;
+  place-items: center;
+}
+
+.about-picture {
+  width: 20rem;
+}
+
+.about-outline {
+  position: absolute;
+  z-index: -1;
+  width: 20rem;
+  height: 20rem;
+  border: solid 2px #682ae9;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}

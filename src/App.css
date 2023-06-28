@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: auto;
+}
+
+.body-container {
+  display: grid;
+  width: 100vw;
+  height: auto;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-bottom: 20rem;
+}

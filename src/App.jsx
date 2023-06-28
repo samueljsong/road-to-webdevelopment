@@ -1,12 +1,23 @@
-import classes from './App.module.css'
-import Hero from './Hero'
+import classes from './App.css'
+import Navbar from './components/Navbar'
+import Hero from './pages/Hero'
+import About from './pages/About'
+
+
 
 function App() {
 
   return (
-    <div className={classes.container}>
-      
-    </div>
+    <>
+      <Navbar></Navbar>
+      <div className="container">
+        <Hero></Hero>
+      </div>
+      <div className='body-container'>
+        <About></About>
+      </div>
+    </>
+    
   )
 }
 
