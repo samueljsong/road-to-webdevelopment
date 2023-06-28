@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './pages/Hero'
 import About from './pages/About'
-import Techstack from './pages/Techstack'
+import Projects from './pages/Projects'
 
 
 
@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className='body-container'>
         <About></About>
-        <Techstack></Techstack>
+        <Projects></Projects>
       </div>
     </>
     

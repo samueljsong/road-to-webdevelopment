@@ -1,0 +1,17 @@
+.projects-container{
+    display: grid;
+    margin-top: 20%;
+    width: 60rem;
+}
+
+.projects-titlesection{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.project-card-container{
+    display: grid;
+    
+    gap: 7rem;
+  }
