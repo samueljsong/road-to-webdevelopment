@@ -35,6 +35,9 @@
 
 .hero-image {
   position: absolute;
-  width: 55rem;
+  width: 9rem;
+  padding-left: 33rem;
+  padding-bottom: 20rem;
   z-index: -3;
+  transform: rotate(35deg);
 }
